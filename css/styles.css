@@ -1,0 +1,189 @@
+
+.logo{
+  color:#ffff;
+}
+.logo:hover{
+  font-style: italic;
+}
+/* stling social*/
+.social-icon{
+  font-size:35px;
+}
+.social-icon:hover {
+    opacity: 0.6;
+    transform:scale(1.3) rotate(15deg);
+  }
+.fa-facebook-square{
+  color:darkblue;
+}
+.fa-youtube-play{
+  color:darkred;
+}
+.fa-instagram{
+  color:#94154f;
+}
+.social ul{
+list-style:none;
+}
+.social ul li{
+  display: inline-block;
+  padding-right:20px;
+
+}
+/* styling search */
+.search-area{
+  width:50%;
+
+}
+  .search-area:hover{
+    background-color:pink;
+    opacity:.9;
+    width:80%;
+
+
+}
+.fa-search{
+  font-size:24px;
+  border-radius:0px;
+  border:none;
+
+}
+.fa-search:hover{
+  color:#fff;
+  background-color:red;
+  border:none;
+}
+
+
+/*for styling nav bar*/
+.navigation{
+  background-color:#142435;
+}
+nav.main-nav .nav-item{
+  transition:background-color .3s ease;
+}
+nav.main-nav .nav-item:hover{
+  background-color:#1a395a;
+  border-radius:10px;
+  font-variant: small-caps;
+}
+nav.main-nav .nav-link{
+  font-size:1.2rem;
+  color: #ffffff;
+  font-family:'Raleway', sans-serif;
+}
+
+
+
+/*for styling section traning*/
+.traning{
+  background-color:#e6ddc0;
+  opacity:.9;
+}
+.traning1{
+  color:#928a8a;
+}
+.image-info{
+  background-color:white;
+  margin-top:-20px;
+  color:black;
+}
+.image-link img{
+  border:3px solid white;
+}
+.image-link img:hover{
+  transform:scale(1.3) rotate(10deg);
+  transition-duration:.6s;
+}
+
+/*for styling get in touch*/
+.main-container{
+  border:2px solid #979797;
+  color:#543745;
+  background-color:white;
+  opacity:.7;
+}
+
+/* google map*/
+.my_map{
+  color:white;
+}
+
+
+/* fitness Workout*/
+.fitness_workout{
+  opacity:.9;
+  background-color:black;
+}
+.workout{
+  color:white;
+}
+.zoom {
+  position: relative;
+  width:100%;
+}
+.image{
+  display:block;
+  width: 100%;
+  height: 400px;
+}
+.overlay{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .4s ease;
+}
+.zoom:hover .overlay{
+  transform:scale(1);
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*for styling footer*/
+.foot{
+  background-color:#191a1b;
+  color:#93b1cc;
+}
+.foot ul{
+  list-style:none;
+}
+.root{
+  border-top:2px solid #59656f;
+  color:#819ab1;
+}
+.root-font{
+  font-size:12px;
+
+}
+.foot-underline{
+  border-bottom:2px solid red;
+  border-bottom-style:dashed;
+  color:#ffff;
+}
+
+
+/*  Videos play here  */
+.play_video{
+  Weight:100%;
+  height:500px;
+  background-color:pink;
+}
+.ads{
+  Weight:100%;
+  height:500px;
+  background-color:blue;
+}
