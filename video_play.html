@@ -1,0 +1,93 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Romanesco" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-8 play_video">
+      <h1>play videos</h1>
+      <img id="expandedImg" style="width:100%;height:500px;">
+      <div id="imgtext"></div>
+    </div>
+
+    <div class="col-12 col-md-4 ads">
+      <h1>play ads</h1>
+    </div>
+  </div>
+</div>
+
+  <section>
+  <div class="container-fluid">
+  <h1>Videos</h1>
+  <div class="row">
+    <div class="col-md-8" style="background-color:yellow;">
+      <div class="row">
+          <div class="col-md-3" style="background-color:yellow;">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  magna aliqua.<br>
+    </div>
+    <div class="col-md-3" style="background-color:yellow;">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  magna aliqua.<br>
+    </div>
+    <div class="col-sm-3" style="background-color:yellow;">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+  </div>
+</div>
+
+    <div class="col-md-4" style="background-color:pink;">
+      <div class="row">
+        <div class="col-12 col-md-12">
+          Sed ut perspiciatis unde omnis iste natus  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+        </div>
+        <div class="col-12 col-md-12">
+          Sed ut perspiciatis unde omnis iste natus  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+        </div>
+        <div class="col-12 col-md-12">
+          Sed ut perspiciatis unde omnis iste natus  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+        </div>
+     </div>
+  </div>
+
+  </div>
+</div>
+</section>
+
+<div style="text-align:center">
+  <h2>Tabbed Image Gallery</h2>
+  <p>Click on the images below:</p>
+</div>
+
+<div class="container">
+</div>
+
+<!-- The four columns -->
+
+<div class="row ">
+  <iframe width="300" height="180"
+  src="https://www.youtube.com/embed/tgbNymZ7vqY" onclick="myFunction(this);">
+  </iframe>
+<div class="column"><img src="img/couple.jpeg" alt="Lights" style="width:100%;" onclick="myFunction(this);">
+  </div>
+</div>
+
+
+
+<script>
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+</script>
+</body>
+</html>
